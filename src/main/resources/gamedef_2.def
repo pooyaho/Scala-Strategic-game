@@ -1,0 +1,41 @@
+block citytown {
+
+    creation {
+        duration = 100
+    }
+
+    destruction {
+        duration = 100
+    }
+
+    upgrades {
+        level1 {
+            duration = 100
+        }
+        level2 {
+            duration = 100
+        }
+    }
+    units{
+       all {
+           citizen {
+               creation {
+                   duration = 10
+               }
+               destruction {
+                    duration=1
+               }
+           }
+       }
+       level1{
+           bee{
+               creation {
+                   duration = 10
+                }
+               destruction {
+                    duration=1
+               }
+           }
+       }
+    }
+}

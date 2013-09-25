@@ -1,0 +1,46 @@
+block citytown {
+
+    creation {
+        duration = 100
+        cost = food * 10, wood * 10
+    }
+
+    destruction {
+        duration = 100
+    }
+
+    upgrades {
+        level1 {
+            duration = 100
+            cost = wood * 200  , food * 10
+        }
+        level2 {
+            duration = 100
+            cost = food * 30 , food * 10
+        }
+    }
+    units{
+       all {
+           citizen {
+               creation {
+                   cost = food * 10, wood * 10
+                   duration = 10
+               }
+               destruction {
+                    duration=1
+               }
+           }
+       }
+       level1{
+           bee{
+               creation {
+                   duration = 10
+                   cost = food * 10, wood * 10
+               }
+               destruction {
+                    duration=1
+               }
+           }
+       }
+    }
+}
